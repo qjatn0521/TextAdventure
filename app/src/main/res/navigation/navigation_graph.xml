@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_text">
+    <fragment
+        android:id="@+id/fragment_bag"
+        android:name="com.game.textadventure.fragment.BagFragment"
+        android:label="FragmentBag">
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_book"
+        android:name="com.game.textadventure.fragment.BookFragment"
+        android:label="FragmentBook">
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_text"
+        android:name="com.game.textadventure.fragment.TextFragment"
+        android:label="FragmentText">
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.game.textadventure.fragment.ProfileFragment"
+        android:label="FragmentProfile">
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_coop"
+        android:name="com.game.textadventure.fragment.CoopFragment"
+        android:label="FragmentCoop">
+    </fragment>
+
+
+</navigation>
